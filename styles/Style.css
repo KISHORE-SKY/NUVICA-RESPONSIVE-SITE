@@ -1,0 +1,2089 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	overflow-x: hidden;
+}
+section{
+	background:radial-gradient(closest-side at 300px 200px,#6ECFFF,#CFEAFA);
+	padding:10px;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background: transparent;
+	padding: 10px;
+}
+.logo img{
+	width: clamp(5.0rem, 10vw, 10.0rem);
+	height: auto;
+}
+.navlinks {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin: 10px;
+}
+.navlinks a{
+	text-decoration: none;
+	color: darkblue;
+}
+.navlinks a:hover{
+	text-decoration-color: white;
+	text-decoration: underline;
+	transition: all 0.3s ease-out;
+	color: white;
+}
+#contact{
+	display: flex;
+	flex-wrap: wrap;
+ 	background-color: white;
+ 	color: darkblue;
+ 	padding: 10px;
+ 	border-radius: 20px;
+ 	cursor: pointer;
+	align-items: center;
+	gap: 5px;
+}
+#contact a{
+	text-decoration: none;
+	color: darkblue;
+}
+#contact button{
+	border-width: 0px;
+	background-color: white;
+	align-self: flex-end;
+}
+.nav-Arrow{
+	background-color: #43BF50;
+	border-radius: 20px;
+	padding: 5px;
+	border-width: 0px;
+	cursor: pointer;
+	align-self: flex-end;
+}
+#contact:hover{
+	transform: scaleX(1.1);
+	transition: all 0.3s ease-in;
+}
+ main{
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+ .content{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: flex-start;
+ 	flex-wrap: wrap;
+ 	flex-direction: column;
+ 	flex-basis: 33%;
+ 	flex-grow: 1;
+ 	flex-shrink: 1;
+ 	padding: 1.0rem;
+ 	align-self: center;
+ }
+ .doctor{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	flex-wrap: wrap;
+ 	flex-direction: column;
+ 	flex-basis: 33%;
+ 	flex-grow: 1;
+ 	flex-shrink: 1;
+ }
+ .lungsimage{
+ 	display: flex;
+ 	justify-content: flex-start;
+ 	align-items: flex-start;
+ 	flex-direction: column;
+ 	flex-wrap: wrap;
+	flex-basis: 33%;
+	flex-grow: 0;
+	flex-shrink: 1;
+ }
+ .treatment{
+ 	display: flex;
+ 	align-items: center;
+ 	gap: 5px;
+    background-color: white;
+    color: darkblue;
+    padding: 10px;
+    text-align: center;
+    width: fit-content;
+    border-radius: 10px;
+ }
+ .slogan h1{
+ 	font-weight: bolder;
+ 	color: white;
+ 	font-size: 60px;
+ 	margin-top: 5px;
+ }
+ .slogan p{
+ 	color: darkblue;
+ 	margin-top: 5px;
+ }
+ b{
+ 	font-size: 20px;
+ }
+ .explore{
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+ 	margin-top: 5px;
+ }
+ .explore h3{
+ 	background-color: darkblue;
+ 	color: white;
+ 	padding: 10px;
+ 	border-radius: 20px;
+ 	cursor: pointer;
+margin-top: 10px;
+ }
+ .explore:hover{
+ 	transform: scaleX(1.1);
+ 	transition: all 0.3s ease;
+ }
+ .explore a{
+ 	text-decoration: none;
+ 	color: inherit;
+ }
+ .explore-arrow{
+ 	background-color: white;
+ 	padding: 10px;
+ 	border-radius: 20px;
+ 	align-self: flex-end;
+ 	cursor: pointer;
+ }
+ .awards{
+ 	width: fit-content;
+ 	padding: 5px;
+ 	background-color: white;
+ 	color: darkblue;
+ 	border-radius: 5px;
+ 	text-align: center;
+ 	align-self:flex-end;
+ 	position: relative;
+    top: 7.0rem;
+    right: 4.0rem;
+ 	z-index: 2;
+ }
+ .years{
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+ 	flex-wrap: wrap;
+ 	background-color: rgba(255, 255, 255, 0.4);
+ 	backdrop-filter: blur(5px);
+ 	width: fit-content;
+ 	padding: 10px;
+ 	border-radius: 5px;
+ 	z-index: 2;
+ 	margin-bottom: 10px;
+ 	align-self: flex-start;
+ 	position: relative;
+ 	bottom: 70px;
+  	gap: 5px;
+ }
+ .years li{
+ 	list-style: none;
+ 	color: darkblue;
+ 	font-size: 10px;
+ }
+ .medic-box{
+ 	background-color: white;
+ 	border-radius: 20px;
+ 	padding: 5px;
+ }
+ .heal{
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	align-items: center;
+ 	background-color: rgba(255, 255, 255, 0.3);
+ 	backdrop-filter: blur(5px);
+ 	padding: 5px;
+ 	width: fit-content;
+ 	border-radius: 5px;
+ 	align-self: flex-end;
+	position: relative;
+	bottom: 100px;
+	right: 5.0rem;
+ }
+ .heal li{
+ 	list-style: none;
+ 	color: darkblue;
+ 	font-size: 10px;
+ }
+ .doctor_image{
+ 	max-width:  350px;
+ 	max-height: 500px;
+ 	background: linear-gradient(ghostwhite,60%,#A8A5A5);
+ 	align-self: flex-end;
+ 	border-radius: 150px 150px 150px 150px;
+ }
+.main-lungs img{
+	max-width: 375px;
+	max-height: 325px;
+	background-color: ghostwhite;
+	border-radius: 150px 0px 0px 0px;
+	mask-image: linear-gradient(to bottom,#CFEAFA 70%,transparent 100%);
+}
+.types{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1.0rem;
+	position: relative;
+	top: 50px;
+	z-index: 10;
+}
+.brain{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #F2F0F0;
+	border-radius: 20px;
+	padding: 0.5rem;
+	flex-basis: 31%;
+}
+.brain:hover{
+	background: radial-gradient(ghostwhite,20%,#293B6E);
+	color: white;
+	transform: translateY(-10px);
+	transition: all 0.3s ease-in;
+	cursor: grab;
+}
+.liver{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #F2F0F0;
+	width: fit-content;
+	border-radius: 20px;
+	padding: 0.5rem;
+	flex-basis: 31%;
+}
+.liver:hover{
+	background: radial-gradient(ghostwhite,20%,#293B6E);
+	color: white;
+	transform: translateY(-10px);
+	transition: all 0.3s ease-in;
+	cursor: grab;
+}
+.kidney{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #F2F0F0;
+	width: fit-content;
+	border-radius: 20px;
+  padding: 0.5rem;
+  flex-basis: 31%;
+}
+.kidney:hover{
+	background: radial-gradient(ghostwhite,20%,#293B6E);
+	color: white;
+	transform: translateY(-10px);
+	transition: all 0.3s ease-in;
+	cursor: grab;
+}
+.arrow-brain{
+	background-color: limegreen;
+	width: fit-content;
+	border-radius: 30px;
+	padding: 10px;
+	align-self: flex-end;
+	position: relative;
+	top: 20px;
+}
+.liver-arrow{
+	background-color: limegreen;
+	width: fit-content;
+	border-radius: 30px;
+	padding: 10px;
+	align-self: flex-end;
+	position: relative;
+	top: 20px;
+}
+.kidney-arrow{
+	background-color: limegreen;
+	width: fit-content;
+	border-radius: 30px;
+	padding: 10px;
+	align-self: flex-end;
+	position: relative;
+	top: 20px;
+}
+.types p{
+	align-self: flex-end;	
+}
+.align-brain{
+	align-self: flex-start;
+	max-width: 200px;
+	max-height: 175px;
+}
+.align-liver{
+	max-width: 200px;
+	max-height: 175px;
+	align-self: flex-start;
+}
+.align-kidney{
+	max-width: 200px;
+	max-height: 175px;
+	align-self: flex-start;
+}
+.about-hospital{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 10%;
+}
+.hospital-section{
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-basis: 50%;
+	height: auto;
+}
+.about-section{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-basis: 40%;
+	background-color: white;
+}
+.since{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+	max-width: 8.0rem;
+	z-index: 10;
+	align-self: center;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.6);
+ 	backdrop-filter: blur(5px);
+ 	position: relative;
+ 	right: 10.0rem;
+}
+.hospital-image{
+	max-width: 525px;
+	height: auto;
+	background:radial-gradient(closest-side at 100px 100px,ghostwhite,#C4DCF5);
+	border-radius: 50px;
+	padding: 10px 10px 0px 10px;
+}
+.nuvica-title{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	text-align: left;
+}
+.nuvica-title h3{
+	background-color: white;
+	padding: 5px;
+	border-radius: 20px;
+	color: royalblue;
+}
+.from h3{
+	margin-top: 30px;
+	color: royalblue;
+}
+.from p{
+	color: darkblue;
+}
+.commited{
+	margin-top: 30px;
+	color: darkblue;
+}
+.about{
+	border-radius: 20px;
+	border-width: 0px;
+	border-style: none;
+	color: darkblue;
+	background-color: limegreen;
+	padding: 10px;
+}
+.about a{
+	text-decoration: none;
+	color: darkblue;
+}
+.your-nuvica{
+	color: darkblue;
+}
+.about-us p{
+	color: royalblue;
+}
+.darkblu{
+	color: darkblue;
+}
+.your-nuvica{
+	margin-top: 1.0rem;
+}
+.para{
+	margin-top: 1.0rem;
+}
+.nav-contact{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1.0rem;
+}
+.learn-button{
+	border-width: 0px;
+	border-style: none;
+	border-radius: 30px;
+	margin-top: 10px;
+	background-color: darkblue;
+	color: white;
+	padding: 10px;
+	width: fit-content;
+}
+.learn-button a{
+	color: white;
+	text-decoration: none;
+}
+.learn-button:hover{
+	transform: scaleX(1.1);
+	transition: all 0.3s ease-out;
+}
+.phone{
+	background-color: lightgrey;
+	padding: 10px;
+	border-radius: 30px 10px 30px 30px;
+}
+.phone:hover{
+	transform: translateY(-10px);
+	transition: all 0.5s ease;
+}
+.darkblu{
+	font-size: 20px;
+	color: darkblue;
+}
+.funds-feedback_section{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #E1F3FC;
+	padding: 10px;
+	margin-top: 2.0rem;
+	text-align: center;
+}
+.funds-feedback_section h1{
+	color: darkblue;
+	flex-basis: 25%;
+}
+.funds-feedback_section p{
+	color: royalblue;
+	flex-basis: 25%;
+}
+.dna-test{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0.0rem;
+}
+.main-dna{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+	flex-wrap: wrap;
+	flex-basis: 60%;
+	padding: 1.0rem;
+}
+.main-dna h1{
+	color: darkblue;
+	font-size: clamp(15px, 3.0rem, 35px);
+	position: relative;
+	top: 6.0rem;
+	font-weight: bolder;
+}
+.dnafirst-image{
+	width:clamp(200px, 50.0rem, 600px);
+	height: auto;
+}
+.dna-report{
+	width: fit-content;
+	align-self: flex-start;
+	border-width: 0;
+	border-style: none;
+	color: darkblue;
+	background-color: white;
+	border-radius: 2.0rem;
+	font-size: 1.2rem;
+	position: relative;
+	bottom: 3.0rem;
+	padding: 0.5rem;
+}
+.dna-report i{
+	color: royalblue;
+}
+.get-start{
+	display: flex;
+	flex-direction: row;
+	gap: 0.5rem;
+	width: fit-content;
+	align-self: flex-end;
+	border-width: 0;
+	border-style: none;
+	background-color: white;
+	color: royalblue;
+	border-radius: 2.0rem;
+	font-size: 1.0rem;
+	padding: 0.5rem;
+	align-items: center;
+	position: relative;
+	bottom: 7.0rem;
+}
+.dna-arrow{
+	background-color: limegreen;
+	border-radius: 2.0rem;
+	padding: 0.5rem;
+}
+.doctor-dna{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	flex-basis: 40%;
+}
+.doctor-trust{
+	display: flex;
+	flex-direction: row;
+	background: linear-gradient(to bottom,ghostwhite,60%,#B2DBDB);
+  border-radius: 2.0rem;
+  height: fit-content;
+  padding: 0.5;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+.doctor-trust h2{
+	color: darkblue;
+	align-self: flex-end;
+	padding: 0.5rem;
+}
+.doctor-trust b{
+	color: royalblue;
+}
+.dna-accurate{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: fit-content;
+	height: fit-content;
+	background:radial-gradient(ghostwhite,#336CB5);
+	border-radius: 2.0rem;
+	padding: 1.0rem;
+}
+.dna-accurate img{
+	align-self: flex-start;
+}
+.accurancy{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: white;
+}
+.accurancy h1{
+	font-size: 2.5rem;
+	align-self: flex-end;
+}
+.dna-rate{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-self: flex-end;
+	color: white;
+}
+.rate-last{
+	align-self: flex-end;
+}
+.doctors-section{/*doctor section styles*/
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-top: 0px;
+	background-color: #E6EFFA;
+	gap: 0.5rem;
+	padding: 1.0rem;
+}
+.doctor-button{
+	background-color: limegreen;
+	width: fit-content;
+	color: darkblue;
+	border-radius: 1.0rem;
+	padding: 0.5rem;
+	border-style: none;
+	border-color: none;
+	margin-left: 4.0rem;
+	margin-top: 1.5rem;
+}
+.doctor-dialogue{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.doctor-dialogue h1{
+	color: darkblue;
+}
+.doctor-dialogue p{
+	color: royalblue;
+}
+.doctor-profiles{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 0.8rem;
+	flex-wrap: wrap;
+	margin-top: 0px;
+}
+.doctor1{
+	background-color: ghostwhite;
+	flex-basis: 22%;
+	padding: 0.5rem;
+	border-radius: 1.0rem;
+}
+.doctor2{
+	background-color: ghostwhite;
+	flex-basis: 22%;
+	padding: 0.5rem;
+	border-radius: 1.0rem;
+}
+.doctor3{
+	background-color: ghostwhite;
+	flex-basis: 22%;
+	padding: 0.5rem;
+	border-radius: 1.0rem;
+}
+.doctor4{
+	background-color: ghostwhite;
+	flex-basis: 22%;
+	padding: 0.5rem;
+	border-radius: 1.0rem;
+}
+.doctor1 img{
+	height: 15.0rem;
+	width: 17.5rem;
+	background-color:#B2DBDB;
+	border-radius: 1.0rem;
+}
+.doctor2 img{
+	height: 15.0rem;
+	width: 17.5rem;
+	background-color: #B2DBDB;
+	border-radius: 1.0rem;
+}
+.doctor3 img{
+	height: 15.0rem;
+	width: 17.5rem;
+	background-color: #B2DBDB;
+	border-radius: 1.0rem;
+}
+.doctor4 img{
+	height: 15.0rem;
+	width: 17.5rem;
+	background-color: #B2DBDB;
+	border-radius: 1.0rem;
+}
+.social-icons{
+	text-align: center;
+	border-radius: 10px;
+}
+.doctor1:hover{
+	background: linear-gradient(to bottom,ghostwhite,60%,#B2DBDB);
+	cursor: pointer;
+	transform: translateY(-1.0rem);
+	transition: all 0.3s ease-in;
+}
+.doctor1 img:hover{
+background: none;
+}
+.doctor2:hover{
+	background: linear-gradient(to bottom,ghostwhite,60%,#B2DBDB);
+	cursor: pointer;
+	transform: translateY(-1.0rem);
+	transition: all 0.3s ease-in;
+}
+.doctor2 img:hover{
+background: none;
+}
+.doctor3:hover{
+	background: linear-gradient(to bottom,ghostwhite,60%,#B2DBDB);
+	cursor: pointer;
+	transform: translateY(-1.0rem);
+	transition: all 0.3s ease-in;
+}
+.doctor3 img:hover{
+background: none;
+}
+.doctor4:hover{
+	background: linear-gradient(to bottom,ghostwhite,60%,#B2DBDB);
+	cursor: pointer;
+	transform: translateY(-1.0rem);
+	transition: all 0.3s ease-in;
+}
+.doctor4 img:hover{
+background: none;
+}
+.social-icons:hover{
+	background: rgba(255, 255, 255, 0.7);
+	backdrop-filter: blur(5px);
+	transition: all 0.3s ease-in;
+}
+.departments-section{/*departments in hospital section styles*/
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 1.5rem;
+}
+.departments-section button{
+	width: fit-content;
+	border-width: 0px;
+	border-style: none;
+	background-color: limegreen;
+	color: darkblue;
+	padding:0.5rem;
+	border-radius: 1.0rem;
+	margin-left: 4.5rem;
+}
+.departments-section a{
+	color: darkblue;
+	text-decoration: none;
+}
+.department-head-para{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: auto;
+}
+.department-head-para h1{
+	color: darkblue;
+	flex-basis: 40%;
+	height: auto;
+	position: relative;
+	left: 1.0rem;
+}
+.department-head-para p{
+	color: royalblue;
+	flex-basis: 40%;
+	height: auto;
+}
+.types-departments{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0.5rem;
+	gap: 0.5rem;
+}
+.cardiology{
+   background-color:#F0F8FA;
+	flex-basis: 22%;
+	border-radius: 2.0rem;
+	padding: 1.0rem;
+	height: 11.0rem;
+}
+.neorology{
+	background-color:#F0F8FA;
+	border-radius: 20px;
+	flex-basis: 22%;
+	padding: 1.0rem;
+	height: 11.0rem;
+}
+.orthopedics{
+   background-color:#F0F8FA;
+	border-radius: 20px;
+	flex-basis: 22%;
+	padding: 1.0rem;
+	height: 11.0rem;
+}
+.gastroenterology{
+	background-color:#F0F8FA;
+	border-radius: 20px;
+	flex-basis: 22%;
+	padding: 1.0rem;
+	height: 11.0rem;
+}
+.pediatrics{
+	background-color:#F0F8FA;
+	border-radius: 20px;
+	flex-basis: 22%;
+	padding: 1.0rem;
+	height: 11.0rem;
+}
+.gynecology--obestrics{
+	background-color:#F0F8FA;
+	border-radius: 20px;
+	flex-basis: 22%;
+	padding: 1.0rem;
+	height: 11.0rem;
+}
+.urology{
+	background-color:#F0F8FA;
+	border-radius: 20px;
+	flex-basis: 22%;
+	padding: 1.0rem;
+	height: 11.0rem;
+}
+.radiology{
+	background-color:#F0F8FA;
+	border-radius: 20px;
+	padding: 1.0rem;
+	flex-basis: 22%;
+	height: 11.0rem;
+}
+.cardiology-icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.neorology-icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.orthopedics-icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.gastroenterology-icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.pediatrics-icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.gynecology-icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.urology-icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.radio-icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.types-departments h3{
+	color: darkblue;
+}
+.small-para{
+	color: royalblue;
+	font-size: 15px;
+}
+.cardiology:hover{
+   background:linear-gradient(to right,ghostwhite,40%,#8EBAF5,ghostwhite);
+   cursor: pointer;
+   transform: translateY(-10px);
+   transition: all 0.3s ease-out;
+}
+.neorology:hover{
+   background:linear-gradient(to right,ghostwhite,40%,#8EBAF5,ghostwhite);
+   cursor: pointer;
+   transform: translateY(-10px);
+   transition: all 0.3s ease-out;
+}
+.orthopedics:hover{
+   background:linear-gradient(to right,ghostwhite,40%,#8EBAF5,ghostwhite);
+   cursor: pointer;
+   transform: translateY(-10px);
+   transition: all 0.3s ease-out;
+}
+.gastroenterology:hover{
+   background:linear-gradient(to right,ghostwhite,40%,#8EBAF5,ghostwhite);
+   cursor: pointer;
+   transform: translateY(-10px);
+   transition: all 0.3s ease-out;
+}
+.pediatrics:hover{
+   background:linear-gradient(to right,ghostwhite,40%,#8EBAF5,ghostwhite);
+   cursor: pointer;
+   transform: translateY(-10px);
+   transition: all 0.3s ease-out;
+}
+.gynecology--obestrics:hover{
+   background:linear-gradient(to right,ghostwhite,40%,#8EBAF5,ghostwhite);
+   cursor: pointer;
+   transform: translateY(-10px);
+   transition: all 0.3s ease-out;
+}
+.urology:hover{
+   background:linear-gradient(to right,ghostwhite,40%,#8EBAF5,ghostwhite);
+   cursor: pointer;
+   transform: translateY(-10px);
+   transition: all 0.3s ease-out;
+}
+.radiology:hover{
+   background:linear-gradient(to right,ghostwhite,40%,#8EBAF5,ghostwhite);
+   cursor: pointer;
+   transform: translateY(-10px);
+   transition: all 0.3s ease-out;
+}
+.blog-section{ /*blog section styles*/
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 1.0rem;
+	justify-content: space-around;
+	background-color: #E6EFFA;
+	margin-top: 2.0rem;
+}
+.blog-button{
+	width: fit-content;
+	background-color: limegreen;
+	color: darkblue;
+	padding: 0.5rem;
+	border-radius: 1.0rem;
+	border-width: 0px;
+	border-style: none;
+	border-color: none;
+	font-size: 1.0rem;
+	margin-left: 3.0rem;
+	margin-top: 0.5rem;
+}
+.blog-button a{
+	text-decoration: none;
+	color: darkblue;
+}
+.head-para-blog{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.head-para-blog h1{
+	color: darkblue;
+	flex-basis: 45%;
+	position: relative;
+	left: 1.0rem;
+}
+.head-para-blog p{
+	color: royalblue;
+	flex-basis: 45%;
+}
+.blog-posts-sec{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1.0rem;
+}
+.blog-sthetestscope{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	flex-wrap: wrap;
+	flex-basis: 30%;
+	gap: 0.5rem;
+}
+.blog-dna-post{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-basis: 30%;
+	gap: 0.5rem;
+}
+.dna-blog-content{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+.care-blog-post{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	flex-basis: 30%;
+	gap: 0.5rem;
+}
+.care-blog-contents{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+.blog-image1-sthetestscope{
+	max-width: 350px;
+	max-height: 225px;
+	border-radius: 25px;
+}
+.blog-image2-dna{
+	max-width: 410px;
+	max-height: 225px;
+	border-radius: 25px;
+}
+.blog-image3-care{
+	max-width: 325px;
+	min-height: 225px;
+	border-radius: 25px;
+}
+.buttons-smart-device{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.5rem;
+}
+.buttons-personalize{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.5rem;
+}
+.buttons-care-patient{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.5rem;
+}
+.medical-device{
+	border-width: 0px;
+	border-style: none;
+	border-color: none;
+	background-color: darkblue;
+	color: limegreen;
+	padding: 0.3rem;
+	border-radius: 0.5rem;
+}
+.smart-tools{
+	border-width: 0px;
+	border-style: none;
+	border-color: none;
+	background-color: darkblue;
+	color: limegreen;
+	padding: 0.3rem;
+	border-radius: 0.5rem;
+}
+.personalize-medicine{
+	border-width: 0px;
+	border-style: none;
+	border-color: none;
+	background-color: darkblue;
+	color: limegreen;
+	padding: 0.3rem;
+	border-radius: 0.5rem;
+}
+.genomics{
+	border-width: 0px;
+	border-style: none;
+	border-color: none;
+	background-color: darkblue;
+	color: limegreen;
+	padding: 0.3rem;
+	border-radius: 0.5rem;
+}
+.care-button{
+	border-width: 0px;
+	border-style: none;
+	border-color: none;
+	background-color: darkblue;
+	color: limegreen;
+	padding: 0.3rem;
+	border-radius: 0.5rem;
+}
+.patient-button{
+	border-width: 0px;
+	border-style: none;
+	border-color: none;
+	background-color: darkblue;
+	color: limegreen;
+	padding: 0.3rem;
+	border-radius: 0.5rem;
+}
+.blog-sthetestscope p{
+	color: royalblue;
+}
+.blog-dna-post p{
+	color: royalblue;
+}
+.care-blog-post p{
+	color: royalblue;
+}
+.blog1-content{
+	font-size: 1.0rem;
+}
+.blog2-post-dna{
+	font-size: 1.0rem;
+}
+.blog3care-content{
+	font-size: 1.0rem;
+}
+.blog-date{
+	font-size: 0.8rem;
+}
+.doctor-profile-name{
+	font-size: 0.8rem;
+}
+.appointment-section{ /*appointment section*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #D2DAFC;
+	margin-top: 2.5rem;
+	padding: 2.0rem;
+}
+.label-for-appointment{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.5rem;
+	flex-basis: 50%;
+}
+.appointment-button{
+	border-width: 0px;
+	border-style: none;
+	border-color: none;
+	width: fit-content;
+	padding: 0.5rem;
+	background-color: limegreen;
+	color: darkblue;
+	border-radius: 1.0rem;
+}
+.label-for-appointment h1{
+	color: darkblue;
+} 
+.label-for-appointment p{
+	color: royalblue;
+}
+.appointment-book-form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	flex-basis: 50%;
+	align-self: flex-start;
+	background-color: whitesmoke;
+	border-radius: 20px;
+	padding: 1.0rem 0.5rem 1.0rem 0.5rem;
+}
+.appointment-book-form h2{
+	color: darkblue;
+	align-self: center;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 1.0rem;
+}
+.row-one{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.first-column{
+	display: flex;
+	flex-direction: row;
+	flex-basis: 50%;
+	justify-content: center;
+	align-items: center;
+}
+#medicbox-image{/*form styles*/
+   width: 40px;
+   height: auto;
+   background-color: royalblue;
+   border-radius: 5px;
+   padding: 0.5rem;
+}
+#Departments{
+	height: 2.3rem;
+	width: 70%;
+	color: royalblue;
+	background-color: #D2DAFC;
+	border-width: 0px;
+	border-color: none;
+	border-radius: 5px;
+	padding-inline: 0.5rem;
+}
+.column-two{
+	display: flex;
+	flex-direction: row;
+	flex-basis: 50%;
+	justify-content: center;
+	align-items: center;
+}
+#sthethoscope-image{
+	max-height: auto;
+	max-width: 40px;
+	background-color: royalblue;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+}
+#Doctors{
+	height: 2.3rem;
+	width: 70%;
+	color: royalblue;
+	background-color: #D2DAFC;
+	border-width: 0px;
+	border-color: none;
+	border-radius: 5px;
+	padding-inline: 0.5rem;
+}
+.row-two{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-basis: 100%;
+	align-items: center;
+}
+#form-patient{
+	max-height: 40px;
+	max-width: 40px;
+	background-color: royalblue;
+	border-radius: 5px;
+	padding: 0.5rem;
+}
+#patient-name{
+	color: royalblue;
+	height: 2.3rem;
+	width: 85%;
+	background-color: #D2DAFC;
+	border-width: 0px;
+	border-color: none;
+	border-radius: 5px;
+	padding-inline: 0.5rem;
+}
+#patient-name::placeholder{
+	color: royalblue;
+}
+.row-three{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.0rem;
+	margin-top: 0px;
+}
+.column-one-three{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 50%;
+}
+#phone-image{
+	max-width: 40px;
+	max-height: auto;
+	background-color: royalblue;
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+#phone-number{
+	width: 70%;
+	height: 2.3rem;
+	border-width: 0px;
+	border-style: none;
+	background-color: #D2DAFC;
+	border-radius: 5px;
+	padding-inline: 0.5rem;
+}
+#phone-number::placeholder{
+	color: royalblue;
+}
+.column-two-three{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 50%;
+}
+#email-image{
+	min-width: 40px;
+	height: 40px;
+	background-color: royalblue;
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+#email{
+	width: 70%;
+	height: 2.3rem;
+	border-width: 0px;
+	border-style: none;
+	background-color: #D2DAFC;
+	border-radius: 5px;
+	padding-inline: 0.5rem;
+}
+#email::placeholder{
+	color: royalblue;
+}
+.row-four{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 1.0rem;
+}
+.column-one-four{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-basis: 50%;
+}
+#calender-image{
+	min-width: 40px;
+	height: 40px;
+	background-color: royalblue;
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+#calender{
+	width: 70%;
+	height: 2.3rem;
+	border-width: 0px;
+	border-style: none;
+	background-color: #D2DAFC;
+	border-radius: 5px;
+	color: royalblue;
+	padding-inline: 0.5rem;
+}
+.column-two-four{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-basis: 50%;
+	justify-content: center;
+}
+#clock-image{
+	min-width: 40px;
+	height: 40px;
+	background-color: royalblue;
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+#clock{
+	width: 70%;
+	height: 2.3rem;
+	border-width: 0px;
+	border-style: none;
+	background-color: #D2DAFC;
+	border-radius: 5px;
+	color: royalblue;
+	padding-inline: 0.5rem;
+}
+.form-book-appointment{
+	background-color: darkblue;
+	color: white;
+	padding: 0.5rem;
+	align-self: center;
+	border-radius: 20px;
+	margin-top: 0.5rem;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-top: 1.5rem;
+	gap: 1.0rem;
+	padding: 1.0rem;
+}
+.footer-nuvica{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-basis: 50%;
+}
+.footer-nuvica img{
+	width: clamp(300px, 65.0rem, 700px);
+	max-height: auto;
+}
+.quick-nav-footer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-basis: 50%;
+}
+.subscribe{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-basis: 20%;
+	gap: 1.0rem;
+}
+.subscribe h2{
+	color: darkblue;
+}
+.email-subscribe{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.email-subscribe img{
+	max-width: 35px;
+	max-height: 35px;
+}
+.email-subscribe input{
+	max-width:85%;
+	min-height: 2.5rem;
+	border-width: 0px;
+	border-radius: 5px;
+	border-color: none;
+	border-style: none;
+	background-color: #D2DAFC;
+	padding-inline: 0.5rem;
+}
+.email-subscribe input::placeholder{
+	color: royalblue;
+}
+#footer-facebook{
+	background-color: limegreen;
+	border-radius: 20px;
+	padding: 0.5rem;
+	max-width: 35px;
+	max-height: 35px;
+}
+#footer-instagram{
+	background-color: limegreen;
+	border-radius: 20px;
+	padding: 0.5rem;
+	max-width: 35px;
+	max-height: 35px;
+}
+#footer-linkedin{
+	background-color: limegreen;
+	border-radius: 20px;
+	padding: 0.5rem;
+	max-width: 35px;
+	max-height: 35px;
+}
+#footer-telegram{
+	background-color: limegreen;
+	border-radius: 20px;
+	padding: 0.5rem;
+	max-width: 35px;
+	max-height: 35px;
+}
+#footer-facebook:hover{
+	background-color: purple;
+	cursor: grab;
+	transition: all 0.3s ease-in;
+	transform: translateY(-10px);
+}
+#footer-instagram:hover{
+	background-color: purple;
+	cursor: grab;
+	transition: all 0.3s ease-in;
+	transform: translateY(-10px);
+}
+#footer-linkedin:hover{
+	background-color: purple;
+	transform: translateY(-10px);
+	cursor: grab;
+	transition: all 0.3s ease-in;
+}
+#footer-telegram:hover{
+	background-color: purple;
+	transform: translateY(-10px);
+	cursor: grab;
+	transition: all 0.3s ease-in;
+}
+.footer-company{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-self: center;
+	flex-basis: 20%;
+	gap: 0.5rem;
+}
+.footer-company h3{
+	color: darkblue;
+}
+.footer-company{
+	color: royalblue;
+}
+.footer-departments{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-basis: 20%;
+	gap: 0.5rem;
+}
+.footer-departments h3{
+	color: darkblue;
+}
+.footer-departments p{
+	color: royalblue;
+}
+.footer-patient-service{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-basis: 20%;
+	gap: 0.5rem;
+}
+.footer-patient-service h3{
+	color: darkblue;
+}
+.footer-patient-service p{
+	color: royalblue;
+}
+.footer-quick-links{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-basis: 20%;
+	gap: 0.5rem;
+}
+.footer-quick-links h3{
+	color: darkblue;
+}
+.footer-quick-links p{
+	color: royalblue;
+}
+}
+/*media queries for tab screen 600px to 800px*/
+@media screen and (max-width: 800px){
+	header{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+@media (max-width: 800px){
+	.navlinks,.nav-Arrow{
+		display: none;
+	}
+}
+@media screen and (max-width: 800px){
+	main,.content,.doctor{
+		flex-basis: 50%;
+	}
+}
+@media (max-width: 800px){
+	.slogan h1{
+		font-size: clamp(15px, 3.0rem, 40px);
+	}
+}
+@media (max-width: 800px){
+	.slogan p{
+		font-size: clamp(5px, 1.0rem, 15px);
+	}
+}
+@media (max-width: 800px){
+	.doctor_image{
+		width: clamp(150px, 20.0rem, 250px);
+		height: auto;
+	}
+}
+@media screen and (max-width: 800px){
+	.explore,.awards{
+		display: none;
+	}
+}
+@media (max-width: 800px){
+	.doctor{
+		position: relative;
+		top: 2.0rem;
+	}
+}
+@media (max-width: 800px){
+	.years{
+		align-self: center;
+		padding: 5px;
+	}
+}
+@media (max-width: 800px){
+	.lungsimage{
+		display: none;
+	}
+}
+@media screen and (max-width: 800px){
+	.types,.brain,.liver,.kidney{
+		flex-basis: 62%;
+		padding: 0.5rem;
+	}
+}
+@media screen and (max-width: 800px){
+	.about-hospital,.hospital-section,.about-section{
+		flex-basis: 100%;
+		gap: 1.0rem;
+	}
+}
+@media (max-width: 800px){
+	.since{
+		display: none;
+	}
+}
+@media (max-width: 800px){
+	.hospital-section{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media (max-width: 800px){
+	.para{
+		display: none;
+	}
+}
+@media (max-width: 800px){
+	.about,.your-nuvica{
+		margin-left: 0.5rem;
+	}
+}
+@media (max-width: 800px){
+.nav-contact{
+	display: flex;
+	justify-content: center;
+	gap: 1.0rem;
+}
+}
+@media screen and (max-width: 800px){   
+.funds-feedback_section,.funds,.total-patients,.satisfaction-feedback,.professionals{
+	flex-basis: 50%;
+}
+}
+@media screen and (max-width: 800px){
+	.dna-test,.main-dna{
+     flex-basis: 100%;
+	}
+}
+@media (max-width: 800px){
+	.dnafirst-image{
+		width: clamp(150px, 45.0rem, 500px);
+	}
+}
+@media screen and (max-width: 800px){
+	.doctor-dna{
+		flex-basis: 80%;
+	}
+}
+@media (max-width: 800px){
+	.get-start{
+		display: none;
+	}
+}
+@media (max-width: 800px){
+	.doctor-dna{
+		align-content: center;
+		gap: 1.0rem;
+	}
+}
+@media screen and (max-width: 800px){
+	.doctors-section,.doctor-dialogue,.doctor-profiles{
+		flex-basis: 100%;
+		gap: 1.0rem;
+	}
+}
+@media (max-width: 800px){
+	.doctors-section{
+		margin-top: 2.0rem;
+	}
+}
+@media (max-width: 800px){
+	.doctor-button{
+		margin-left: 0.5rem;
+	}
+}
+@media screen and (max-width: 800px){
+	.departments-section,.department-head-para,.types-departments{
+		flex-basis: 100%;
+		gap: 1.0rem;
+	}
+}
+@media (max-width: 800px){
+	.departments-section button{
+		margin-left: 1.0rem;
+	}
+}
+@media screen and (max-width: 800px){
+	.department-head-para p{
+	  display: none;
+	}
+}
+@media screen and (max-width: 800px){
+	.cardiology,.neorology,.orthopedics,.gastroenterology,.pediatrics,.gynecology--obestrics,.urology,.radiology{
+		flex-basis: 40%;
+	}
+}
+@media screen and (max-width: 800px){
+	.blog-section,.head-para-blog,.blog-posts-sec{
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 800px){
+	.blog-button{
+		margin-left: 1.0rem;
+	}
+}
+@media (max-width: 800px){
+	.blog-sthetestscope{
+		display: none;
+	}
+}
+@media screen and (max-width: 800px){
+	.head-para-blog p{
+		flex-basis: 100%;
+		margin-left: 1.0rem;
+	}
+}
+@media screen and (max-width: 800px){
+	.appointment-section,.appointment-book-form{
+		flex-basis: 100%;
+		gap: 1.0rem;
+	}
+}
+@media (max-width: 800px){
+	.appointment-button{
+		align-self: center;
+	}
+}
+@media (max-width: 800px){
+	.label-for-appointment h1,.label-for-appointment p{
+		display: none;
+	}
+}
+@media screen and (max-width: 800px){
+	footer,.footer-nuvica,.quick-nav-footer{
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 800px){
+	.footer-nuvica img{
+		width: clamp(250px, 40.0rem, 450px);
+	}
+}
+@media screen and (max-width: 800px){
+	.subscribe,.footer-company,.footer-departments,.footer-patient-service,.footer-quick-links{
+		flex-basis: 40%;
+		gap: 1.0rem;
+	}
+}
+/*media queries for mobile view 420px to 600px*/
+@media screen and (max-width: 600px){
+	main,.content,.doctor{
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 600px){
+	.treatment{
+		align-self: center;
+	}
+}
+@media screen and (max-width: 600px){
+	.slogan{
+		display: none;
+	}
+} 
+@media (max-width: 600px){
+	.doctor h4{
+		font-size: clamp(5px, 1.0rem, 15px);
+	}
+}
+@media (max-width: 600px){
+	.years{
+		padding: 5px;
+	}
+}
+@media screen and (max-width: 600px){
+	.types,.brain,.liver,.kidney{
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 600px){
+	.about-hospital{
+		margin-top: 4.0rem;
+	}
+}
+@media (max-width: 600px){
+	.hospital-image{
+    width: clamp(150px, 35.0rem, 400px);
+	}
+}
+@media (max-width: 600px){
+	.darkblu{
+		font-size: clamp(10px, 1.0rem, 20px);
+	}
+}
+@media (max-width: 600px){
+	.about-section{
+		margin-left: 0.5rem;
+	}
+}
+@media (max-width: 600px){
+	.nav-contact{
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media (max-width: 600px){
+	.learn-button,.phone{
+		padding: 0.5rem;
+	}
+}
+@media screen and (max-width: 600px){
+	.funds-feedback_section,.funds,.total-patients,.satisfaction-feedback{
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 600px){
+	.main-dna{
+		margin-top: 1.0rem;
+	}
+}
+@media (max-width: 600px){
+	.dnafirst-image{
+		width: clamp(150px, 35.0rem, 400px);
+	}
+}
+@media (max-width: 600px){
+	.main-dna h1{
+		position: relative;
+		top: 0px;
+	}
+}
+@media (max-width: 600px){
+	.dna-report{
+		bottom: 0px;
+	}
+}
+@media screen and (max-width: 600px){
+	.doctors-section,.doctor-dialogue,.doctor-profiles{
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 600px){
+	.doctor-button{
+		margin-left: 0.0rem;
+	}
+}
+@media (max-width: 600px){
+	.doctor-dialogue h1{
+		font-size: clamp(10px, 2.0rem, 25px);
+	}
+}
+@media screen and (max-width: 600px){
+	.doctor-profiles img{
+		height: auto;
+	}
+}
+@media (max-width: 600px){
+	.doctor-dialogue p{
+		display: none;
+	}
+}
+@media screen and (max-width: 600px){
+	.departments-section,.department-head-para,.types-departments{
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 600px){
+	.department-head-para h1{
+		font-size: clamp(10px, 2.0rem, 25px);
+	}
+}
+@media screen and (max-width: 600px){
+	.types-departments,.cardiology,.neorology,.orthopedics,.gastroenterology,.pediatrics,.gynecology--obestrics,.urology,.radiology{
+		flex-basis: 100%;
+	}
+}
+@media screen and (max-width: 600px){
+	.blog-section,.head-para-blog,.blog-posts-sec{
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 600px){
+	.head-para-blog p{
+		display: none;
+	}
+}
+@media (max-width: 600px){
+	.head-para-blog h1{
+		font-size: clamp(10px, 2.0rem, 25px);
+	}
+}
+@media screen and (max-width: 600px){
+	.blog-posts-sec,.blog-dna-post,.care-blog-post{
+		flex-basis: 100%;
+		padding: 0.5rem;
+	}
+}
+@media (max-width: 600px){
+	.blog-image2-dna{
+		width: clamp(150px, 25.0rem, 300px);
+		height: auto;
+	}
+}
+@media (max-width: 600px){
+	.blog-dna-post{
+		align-content: center;
+	}
+}
+@media (max-width: 600px){
+	.blog-image3-care{
+		width: clamp(150px, 25.0rem, 300px);
+		height: auto;
+	}
+}
+@media (max-width: 600px){
+	.care-blog-post{
+		align-content: center;
+	}
+}
+@media screen and (max-width: 600px){
+	form,.row-one,.row-two,.row-three,.row-four{
+		flex-basis: 100%;
+		gap: 0px;
+	}
+}
+@media screen and (max-width: 600px){
+	.row-one,.first-column,.column-two,.row-three,.column-one-three,.column-two-three,.row-four,.column-one-four,.column-two-four{
+		flex-basis: 100%;
+		gap: 1.0rem;
+	}
+}
+@media (max-width: 600px){
+	.row-two{
+    
+    margin-left: 1.0rem;
+	}
+}
+@media screen and (max-width: 600px){
+	.footer-nuvica img{
+		width: clamp(150px, 25.0rem, 300px);
+		height: auto;
+	}
+}
+@media screen and (max-width: 600px){
+	.quick-nav-footer,.subscribe,.footer-social-medias,.footer-company,.footer-departments,.footer-patient-service,.footer-quick-links{
+		flex-basis: 70%;
+		align-content: center;
+		gap: 1.0rem;
+	}
+}
+@media (max-width: 600px){
+	.row-two{
+		gap: 0.5rem;
+	}
+}
+@media (max-width: 600px){
+	#patient-name{
+		flex-basis: 80%;
+	}
+}
+@media (max-width: 600px){
+	.subscribe{
+		align-items: center;
+	}
+}
+@media (max-width: 600px){
+	.footer-patient-service{
+		display: none;
+	}
+}
+@media screen and (max-width: 450px){
+	.hospital-image{
+		width: clamp(150px, 25.0rem, 300px);
+		height: auto;
+	}
+}
+@media screen and (max-width: 450px){
+	.dnafirst-image{
+		display: none;
+	}
+}
+@media screen and (max-width: 340px){
+    section{
+    	background: radial-gradient(#CFEAFA);
+    }
+}
+@media screen and (max-width: 350px){
+	.email-subscribe input{
+		max-width: 75%;
+	}
+}
+@media screen and (max-width: 340px){
+	.row-two{
+		display: none;
+	}
+}
+@media (max-width: 340px){
+	.row-three{
+		margin-top: 1.0rem;
+	}
+}
+@media (max-width: 340px){
+	.blog-posts-sec{
+    padding: 0px;
+	}
+}
+@media screen and (max-width: 330px){
+	.blog-dna-post button,.care-blog-post button{
+		font-size: clamp(1px, 0.8rem, 10px);
+	}
+}
+@media screen and (max-width: 320px){
+	.footer-nuvica img{
+		width: clamp(15.0rem, 225px, 25.0rem);
+	}
+}
